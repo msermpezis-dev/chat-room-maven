@@ -52,11 +52,15 @@ The purpose of this repository is to provide example implementations of various 
 
 http://dev.mysql.com/downloads/
 
-**b)** Download and install JDK 8 from 
+**b)** Download the MySQL Connector from 
+
+https://dev.mysql.com/downloads/connector/j/
+
+**c)** Download and install JDK 8 from 
 
 http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
-**c)** Download and install NetBeans 8 IDE with GlassFish Server from
+**d)** Download and install NetBeans 8 IDE with GlassFish Server from
 
 https://netbeans.org/downloads/
 
@@ -86,13 +90,15 @@ https://netbeans.org/downloads/
 
 **b)** JDBC Configuration
 
+ - Extract the downloaded MySQL Connector and relocate the JAR file to the /glassfish/domains/domain1/lib/ext folder of the GlassFish installation.
+
  - To configure the database connectivity for the application, remain in the GlassFish Console to perform the next steps.
  
  		 - Expand the "Resources" node in the Common Tasks menu and select "JDBC Connection Pools" within the "JDBC" menu option.
 		 
 		 - Click "New..." to create a new connection pool.
 		 
-		 - In the "New JDBC Connection Pool" page, enter "ChatRoomPool" for the new pool name, "javax.sql.DataSource" as the resource type, and "MySql" as the database driver vendor.  Click "Next".
+		 - In the "New JDBC Connection Pool" page, enter "ChatRoomPool" for the new pool name, "javax.sql.DataSource" as the resource type, and "MySql" as the database driver vendor.  For newer versions of the MySQl driver, the datasource classname may need to be updated; for version 8.0.17, the classname is "com.mysql.cj.jdbc.MysqlDataSource". Click "Next".
 		 
 		 - Accept all default values by clicking "Finish".
 		 
@@ -107,10 +113,9 @@ https://netbeans.org/downloads/
 	| databaseName  | chat_room  |
 	| user  | chat_room_db_user  |
 	| password  | 8B2R0li!dS@x26{  |
+	| url  | jdbc:mysql://localhost:3306/chat_room?serverTimezone=UTC  |
 
-        - Ensure the url property is correct, i.e. "jdbc:mysql://localhost:3306/chat_room"
-		
-		- Click on "Save" to save the new properties
+        - Click on "Save" to save the new properties
 		
 		- In the "General" tab for this datasource, click on "Ping" to test the connection.
 		
