@@ -182,7 +182,7 @@ https://netbeans.org/downloads/
 
  - To utilize SSL/TLS on localhost, a self-signed certificate is required.  With a self-signed certificate created, access the running application by SSL/TLS by pointing a web browser to https://localhost:8181/ChatRoom.
 
- - Otherwise, comment out the application's security constraint in diabetesregistry/WEB-INF/web.xml and access the running application by pointing a web browser to http://localhost:8080/ChatRoom.  The chat.js file in the web project will also need to be modified to change the WebSocket protocol from "wss" to "ws" and the port from "8484" to "8080".
+ - Otherwise, comment out the application's security constraint in diabetesregistry/WEB-INF/web.xml and access the running application by pointing a web browser to http://localhost:8080/ChatRoom.  The chat.js file in the web project will also need to be modified to change the WebSocket protocol from "wss" to "ws" and the port from "8181" to "8080".
 
  - If an existing SSL certificate in a keystore needs to be imported into a standalone GlassFish installation, navigate to glassfish/domains/domain1/config of the server installation and enter the command, "keytool -importkeystore -srckeystore mykeystore.jks -destkeystore keystore.jks" into a terminal.
 
