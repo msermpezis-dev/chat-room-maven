@@ -35,7 +35,7 @@ The purpose of this repository is to provide example implementations of various 
 
 	Section A - requirements
 
-	Section B - build database
+	Section B - build MySQL database
 
 	Section C - configuration
 
@@ -62,7 +62,7 @@ http://www.oracle.com/technetwork/java/javase/downloads/index.html
 
 https://netbeans.org/downloads/
 
-### Section B - build database
+### Section B - build MySQL database
 
 **a)** In Workbench, open and execute the file named "chatroom_db.sql".
 
