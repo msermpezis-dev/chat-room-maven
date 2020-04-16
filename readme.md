@@ -39,11 +39,9 @@ The purpose of this repository is to provide example implementations of various 
 
 	Section C - configuration
 
-	Section D - build application
+	Section D - deploy application
 
-	Section E - deploy application
-
-	Section F - notes
+	Section E - notes
 
 
 ### Section A - requirements
