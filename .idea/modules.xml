@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ChatRoomMaven/ChatRoom/ChatRoom.iml" filepath="$PROJECT_DIR$/ChatRoomMaven/ChatRoom/ChatRoom.iml" />
-      <module fileurl="file://$PROJECT_DIR$/ChatRoomMaven/ChatRoomMaven.iml" filepath="$PROJECT_DIR$/ChatRoomMaven/ChatRoomMaven.iml" />
       <module fileurl="file://$PROJECT_DIR$/ChatRoomMaven/ChatRoomMaven-ear/ChatRoomMaven-ear.iml" filepath="$PROJECT_DIR$/ChatRoomMaven/ChatRoomMaven-ear/ChatRoomMaven-ear.iml" />
       <module fileurl="file://$PROJECT_DIR$/ChatRoomMaven/ChatRoomMaven-ejb/ChatRoomMaven-ejb.iml" filepath="$PROJECT_DIR$/ChatRoomMaven/ChatRoomMaven-ejb/ChatRoomMaven-ejb.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/chat-room-maven.iml" filepath="$PROJECT_DIR$/.idea/chat-room-maven.iml" />

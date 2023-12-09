@@ -1,0 +1,864 @@
+{
+  "bomFormat" : "CycloneDX",
+  "specVersion" : "1.4",
+  "serialNumber" : "urn:uuid:30707b22-9597-4468-89f8-ac5130e4ca2e",
+  "version" : 1,
+  "metadata" : {
+    "timestamp" : "2023-12-09T12:45:22Z",
+    "tools" : [
+      {
+        "vendor" : "OWASP Foundation",
+        "name" : "CycloneDX Maven plugin",
+        "version" : "2.7.10",
+        "hashes" : [
+          {
+            "alg" : "MD5",
+            "content" : "1cc7f6a0382f8bb2f758d6a6ea401d1b"
+          },
+          {
+            "alg" : "SHA-1",
+            "content" : "a4297947a1f2d7d453105db542651614bbd37f38"
+          },
+          {
+            "alg" : "SHA-256",
+            "content" : "bd0fdd8f2f2116eee5e715aeac1580f19eb7a10ec2b6f805b53567067658e872"
+          },
+          {
+            "alg" : "SHA-512",
+            "content" : "9cde8352a427e10b96cae01348fc7cfe5d4aa9cd0a5e5dd93b414ce3bb7d112993c3b3004e53af52567fbfa16de0704ec59a5556a635ad70571fd124ae389f39"
+          },
+          {
+            "alg" : "SHA-384",
+            "content" : "93d7bf5b5c735347edfbfbd66810273ca840f9a322b816d22d44c3d8e8255c09e86570bb23712aeb0cade0f478be5aeb"
+          },
+          {
+            "alg" : "SHA3-384",
+            "content" : "4467f16e9ca32190a6e49c65339eb28ee5e8c78f4e918fcf95128a4b7648898de56ccb43eacfad0c9391ef8cdb7d629a"
+          },
+          {
+            "alg" : "SHA3-256",
+            "content" : "ed2996c99b483e969221d5e9a40f562ea2ab85442d361d72a90e85266a3ed781"
+          },
+          {
+            "alg" : "SHA3-512",
+            "content" : "c8e6ea9ddc38edc77e284b3bf541663e84752bdc59ed1935799847a48a14ea2fa531b61008fefcba37d732a56702a11ac112437b9b80d18f4ecc8ef0ecfb32cf"
+          }
+        ]
+      }
+    ],
+    "component" : {
+      "group" : "com.daniel.chatroom",
+      "name" : "ChatRoom",
+      "version" : "1.0-SNAPSHOT",
+      "licenses" : [ ],
+      "purl" : "pkg:maven/com.daniel.chatroom/ChatRoom@1.0-SNAPSHOT?type=war",
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.daniel.chatroom/ChatRoom@1.0-SNAPSHOT?type=war"
+    },
+    "properties" : [
+      {
+        "name" : "maven.goal",
+        "value" : "makeBom"
+      },
+      {
+        "name" : "maven.scopes",
+        "value" : "compile,provided,runtime,system"
+      }
+    ]
+  },
+  "components" : [
+    {
+      "group" : "com.daniel.chatroom",
+      "name" : "ChatRoomMaven-ejb",
+      "version" : "1.0-SNAPSHOT",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "13930518929eec7323ba373179c02a3e"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "44cb42f6ee0656f93f8f1bf4c0f3aefdbede172b"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "f56975dd29843ce3e453917fcf70ccb7632adb6f19ef2d8424482fe28a6fd2ad"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "1472f44b69759cce3a22b4e3edf8a2ee4fd9477445d10a941b6a7b58a6e5f04f5aaf1a0de7d1f706379df4e0a373c8e0b125b6bc5db276a5e23a8d97e54d3109"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "a204085c948a670f92e10edcf48ce35515a7815101130ac4eb13ce73514b36652261f2afe2dfc51da67f0f2a75854f11"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "84dc20e5e01cc0b278fe1649960a8768508beaeb14a605f8b1fee71b880a1e984f4d74a90c1a7a81a1e5d97ccdb30fca"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "3be5d7e73d925ae21ac2a00b94f67c707db1a8a2b1fcc76511194a119b8b57c2"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b6685a90c6127c065de6e8986bd179d65f5eb90176059cfd6d52f7d2f3f3cf6e96168fc8503ff94ec992bfbe8f05d26f476665241b1b0ea58e5c9d4d3370a580"
+        }
+      ],
+      "licenses" : [ ],
+      "purl" : "pkg:maven/com.daniel.chatroom/ChatRoomMaven-ejb@1.0-SNAPSHOT?type=jar",
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.daniel.chatroom/ChatRoomMaven-ejb@1.0-SNAPSHOT?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "org.codehaus.jackson",
+      "name" : "jackson-mapper-asl",
+      "version" : "1.9.0",
+      "description" : "Data Mapper package is a high-performance data binding package built on Jackson JSON processor",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "fb1a2c85bf6bf6478f3b46bb5c35f20b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "74828722eb1127057a9522dd6a7a8e208e82b3e7"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9a4e21ddf392e34289c8be6ba618f93bca298b6510cf25bf064a1e1d2f564c3b"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "ce8215bcfa1e3915fcdd3e667e410e76dde52ed3ac13791e27245d0763042fc4e148cb2e5b6d9a0266205aba6d05038bc0321dd76a05e1cc61e4e134689a9e67"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "af4694515d1858f26a889dcc7ab4f459d1e0de51e822eb38624b5c0e169620b4fbd1c7ec813357b10a96c231b44c1d64"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "09d5df4f1f46be558d5de51809ffd7149a86925362b3db74d0a22ace69ae0734740fcb56260dc784cee2a24f11ea7755"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "7f424481b339150e3be672a9d94a434204cd7e29167f3255d0fb0baf665e9386"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5b8abbe1bda4d493a5d2abb0f82b68b4892cd096273961e02fc3798f6b5a6f429cbcbcb604d36f0319b83c5316364bb92790fffc5da41cffe5e03a60920c1295"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://jackson.codehaus.org"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.codehaus.org/browse/JACKSON"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.0?type=jar"
+    },
+    {
+      "publisher" : "FasterXML",
+      "group" : "org.codehaus.jackson",
+      "name" : "jackson-core-asl",
+      "version" : "1.9.0",
+      "description" : "Jackson is a high-performance JSON processor (parser, generator)",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "7e745cd4af68783836a9e305f3663038"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "194599ab3dd29b63b763e7635c8d7a63c830f058"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "5b294e8e32ebde99b545a579c5c7401fe475b7c886b8a9a09ea10bdd220d4752"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "e1a277eef0d1ed5e079a7b0ac9da66f002d5bd2d57f39b88c9f1d25e82fb9245c8abd380adbab5d41f6f1a927188eee3388222ad9754bd2ea47d1d7900c8190d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "6ece1b376aa435b18c1e1e2202b256027273ee5f49f6d9d654eb33561e48ed0d6956c85724ce278c3d7ac9ab3dca93f9"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0392ec778c9c55e6fe3adf53f9d328de84795d0033163c6ae41c06c230a168835d1348260520477288d5112c0ab21849"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1e0e3702844805639a30fc71f0a4dff5b75043fcf5b6de07a627bb8d9d4adf17"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "4ed3e7af863b0b2298dfdf6956a6cfe2320fd08d163933d68fe5963a73580d4feec183561eaa9919d50e8fbedbec8ff6c96ffcbd9038d44f3c6277f0874f4e08"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://jackson.codehaus.org"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://jira.codehaus.org/browse/JACKSON"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.commons",
+      "name" : "commons-csv",
+      "version" : "1.4",
+      "description" : "The Apache Commons CSV library provides a simple interface for reading and writing CSV files of various types.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "59f8fd70588a5fa15875207b8820e68c"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "fc2512d2109144df353501266ac4bbe179058afd"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "9d4924588d6280c7516db3a4b7298306db5b6f0d1cdf568ce738309b5660f008"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "a5d03809cc8096810e67f91cfa5cc7f46f615453901268a9c628ed45c1ee5b2f3be530b92dfa8f9c923ca99541aa01b1cf4bee6bb0cda7f35f744cb743fbcb13"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "91dd7a3e0eb0e89cd3b92b62e4a646b14ad085885071b1ee8f5763bd774103749872fab661ca942ead6611ea0addb863"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "7b2e8a44c9a28672f8a1abbabe54e0c236143eede8ecfa7338e1f0d5247c49b23ecb3866e80953c8f09b96b6d6b5ae34"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "625d286973c55952054b38e5d343608791deecad1e364994a113d2fb247f9f15"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "b368de4b5b033aeb285402a434958ed386f893315d0765d9f996fa1fb3b41da9303dd37a2f12c18c96249561f33cc6252ba00a2172bc35c9805e109d9a8fbc3a"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-csv@1.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-csv/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://continuum-ci.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/CSV"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/csv/trunk"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-csv@1.4?type=jar"
+    },
+    {
+      "group" : "org.mindrot",
+      "name" : "jbcrypt",
+      "version" : "0.4",
+      "description" : "OpenBSD-style Blowfish password hashing for Java",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "d2b39d874e0d512f85386a72b0083682"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "af7e61017f73abb18ac4e036954f9f28c6366c07"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "e183f6f59404fc1e12073cfea4ace7ea103c900463cd21fb609a7c617ecdf624"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "95ffe1f6593f83da047ff289a52b5ef73adcaca4a9a990a47744fbd50a52fce39958c17ed393e95d64093b2acbcaba39ba0b5b983a2e0ad98ce5c6e9282a67cd"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "66a24af2134e6fcee1f4232c2c4bab43ab97d0c8ffbbc009f9bb0e5ef2a7d8795a6da3c6b47c583675b98036958aa729"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "33cf5e13897f25c525017888e7fcd2faf9a0f25135be03a65dd154feb11455e33c1df31963470b2ecaaba5267f6ad652"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "a347c842385e1d76780f9afe2200a7b9815bcd873b2a9fdd2652d0b0a5e0d324"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "5a71c6f1fde98865302e8c9ee6c99ace9efa220c0193bcdd56423015d1c73e54bd65f19a9a3ba3199b242589eb9ccc96b1d6c0d413387f8e8fbed7c691fc8790"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "ISC",
+            "url" : "https://www.isc.org/licenses/"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.mindrot/jbcrypt@0.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://github.com/djmdjm/jBCrypt"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://oss.sonatype.org/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/djmdjm/jBCrypt.git"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.mindrot/jbcrypt@0.4?type=jar"
+    },
+    {
+      "group" : "javax",
+      "name" : "javaee-web-api",
+      "version" : "7.0",
+      "description" : "Java(TM) EE 7 Web Specification APIs",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "81ebc5ebb0de1d73ab87125e64ee3465"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "b1fce45ba94108ebf7e1cace6427ec8761cabec1"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "d1e9c082e8fdde71917a655959e3c3b41fc3664e215b37740e74cdc3e40d2444"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "5f3fd68121c7080dbd932110a6ad695cb0a860aac23a585707f23bb48727f341dee82732f279d3b580a7969b1ca255ed48d40965e29eef488154965d253c114a"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "86b157a2cf1c5eab2ad65c3f2a7825e713ace4fd7957b9e6176addaf40a44cceb05b06cf15b926f2cfa7eec89ee1c721"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "87cfe54bbe8b2e107064c68923ece28c429aa2e470ab6ac84e1d2cd157d535bc5e6e7873e9e4f5b478528de6f41adedd"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "1bbf0281403c91bed9a783135773277a9b7068e5fd02e34ff5dc66c003b76dfd"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "1d8e0e77dd251abe6f8f0ee90a25086ccc560592d2aca33c165c8ff6b20df8e3bb5841f042f964aec945ee37f5b0bd5f17b654a55d9dc6e8069d6aa9a6953722"
+        }
+      ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
+      "purl" : "pkg:maven/javax/javaee-web-api@7.0?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://java.net/javaee-web-api/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://java.net/jira/browse/GLASSFISH"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://java.net/projects/glassfish/lists/dev/archive"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://svn.java.net/svn/glassfish~svn/trunk/main/appserver/javaee-api-parent/javaee-web-api"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax/javaee-web-api@7.0?type=jar"
+    },
+    {
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.commons",
+      "name" : "commons-email",
+      "version" : "1.4",
+      "description" : "Apache Commons Email aims to provide an API for sending email. It is built on top of the JavaMail API, which it aims to simplify.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "2123216982f81cb0892a85e851fefee7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "3b3c527990f7f288a3a9b23a8c7307bbf7e75965"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "685de61b5987602a7170b1c64969d966ab0616e5aff170b78c4c109638662151"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "729d9564a0cfed4e35c3ca7ebc0f1294481c2102142ef21433429f54c969a810c4ecd727256956d1a63349820459a825dcabef28dbb705f406442c69cf93fcd9"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "7a5a34b8cb2831466e5d505f8fb2db9f7eaea77769c2db12fa8f6e810ca106cebebb42e37a3d89a9dfb96c60d74df461"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "2e1f3dded39ade344deced0b1d7a08105b0aba487b2b8066969d7b539266b6f1157f9ebe2da8faca574fdb9b3b97d848"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "424433ce7d8dcfe7abd2421b93fb5ff6610c917ee3f25cd8b1afa08fcece044f"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "09a15e14be49c9a1d0ee5b2c2b46380866b485e77f5381e31eb827d39e80b78d9c3c82cea1521806693048bb79db9fc60e6b3affa3b30f7dea27dcc422418b30"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.commons/commons-email@1.4?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://commons.apache.org/proper/commons-email/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://continuum-ci.apache.org/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://issues.apache.org/jira/browse/EMAIL"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "http://mail-archives.apache.org/mod_mbox/commons-user/"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://svn.apache.org/viewvc/commons/proper/email/trunk"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.commons/commons-email@1.4?type=jar"
+    },
+    {
+      "publisher" : "Oracle",
+      "group" : "com.sun.mail",
+      "name" : "javax.mail",
+      "version" : "1.5.2",
+      "description" : "JavaMail API",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "5faf8e62e75b1fa09acf038546187aa7"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "0ad1027a3d832bb7f34b4b9afeed760ca8eaa12f"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "fb3becba9b18c010b243e32211c26fcda1115e8a47b759d8d0cf288f929029b2"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "334696b7643b8341935f228eee2b7058242a010312fa65c8cf09af127aebe49b0ef6a53acb20df5e957cb286bd4e850a5c860f024483dbc646e2e4d3d8760527"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "9bc7bcd141992df7c0b1795af3320043d5dd786acdc9e6639d5db17af26f69653657458e93b6b29782089ae64f521d2f"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "0b6101902d0a5c57cb098b04db7ea179a3bd4afe5ab64259db434db4acab53ba24505d6b74cbb8ee28f252735b298d18"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "d7f948246cb495fcebf2f7dfa91133849cbb8d2900c994c0747c7567643c1453"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "870e4979cd6fc4961369128129cc929df34a59c3da9d6a06a669e634f1202c8d65dc18537faf5df801cccde25bbc24548e63771757f255ac050e3fca664b2ba4"
+        }
+      ],
+      "licenses" : [
+        {
+          "expression" : "(CDDL-1.0 OR GPL-2.0-with-classpath-exception)"
+        }
+      ],
+      "purl" : "pkg:maven/com.sun.mail/javax.mail@1.5.2?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://javamail.java.net/javax.mail"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://kenai.com/bugzilla"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://java.net/hg/javamail~mercurial/javax.mail"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/com.sun.mail/javax.mail@1.5.2?type=jar"
+    },
+    {
+      "group" : "javax.activation",
+      "name" : "activation",
+      "version" : "1.1.1",
+      "description" : "The JavaBeans(TM) Activation Framework is used by the JavaMail(TM) API to manage MIME data",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "46a37512971d8eca81c3fcf245bf07d2"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "485de3a253e23f645037828c07f1d7f1af40763a"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "ae475120e9fcd99b4b00b38329bd61cdc5eb754eee03fe66c01f50e137724f99"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "49119b0cc3af02700685a55c6f15e6d40643f81640e642b9ea39a59e18d542f8837d30b43b5be006ce1a98c8ec9729bb2165c0442978168f64caa2fc6e3cb93d"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "021f29ab14a1db9b27e31778fd5b6ead2ed46fef534cfab6b34b1b839547c78fc39cfb1568f0b2206bb46a98c4b9e1d4"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "9342dea5301c73ed32ec03efaea0f224336a7399674532130a025a85441b0c9e2ae4f6987039ccd337e719528279af23"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "c51116dd0dc0668087dcaed49fc497c23269c9718b3fc66bd191eeabf1ad3155"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "7682c02949ff5057100882b2e802fc7afd5df14b77ddadd1dafe3f3bcd55f2e382df377bd3dfc3fa43816496fb441ec02570245e8d762bc975ccc53bc0ae0306"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "CDDL-1.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/javax.activation/activation@1.1.1?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://java.sun.com/javase/technologies/desktop/javabeans/jaf/index.jsp"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.activation/activation@1.1.1?type=jar"
+    },
+    {
+      "publisher" : "Oracle",
+      "group" : "javax.mail",
+      "name" : "mail",
+      "version" : "1.4.5",
+      "description" : "JavaMail API (compat)",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "ec6e4e5ebd85a221b395b8f3b37545e6"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "85319c87280f30e1afc54c355f91f44741beac49"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "17bddec86cfe01092bd358c249b7c2ce4295c13cdad314d8eacc8426fdbe3034"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "3e3e406542676f27b5008a061ceaa90580e2f9fd78b31576c99f7612033f2dd0a14824e7bfb16e6f1a12ad96985319fd6f1c2706230019c76ce22da8c7dfd181"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "907ef5a6507c7326b7c4908826203de23c9f7a37ff20feaf2bca40c1955054e1e27ad75219ac3b87f84720a89f0b6751"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "8d9e46b9c1e61087efea0d96fb9f5f5dc30cb9f90eb6676b7ffda4878745fe2dd4745276c901670efbd5dc4ce5ac2b46"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "af028bc84ab49b605e8b3fe8b316782dad100a435e07014c8b0cebb722784fb5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "81e1fb9eb2eadfb8bc61bc75e3458fe58e7526d65babcb5e9426a03c164d4947139bef1b3dd3b7e1dc6752d8c0a9d55f62059c928610075d078fc5e841d19875"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "name" : "CDDL",
+            "url" : "http://www.sun.com/cddl"
+          }
+        },
+        {
+          "license" : {
+            "id" : "GPL-2.0-with-classpath-exception"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/javax.mail/mail@1.4.5?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://kenai.com/projects/javamail/mail"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.java.net/service/local/staging/deploy/maven2/"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "http://kenai.com/bugzilla"
+        },
+        {
+          "type" : "vcs",
+          "url" : "http://kenai.com/hg/javamail~mercurial/mail"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/javax.mail/mail@1.4.5?type=jar"
+    },
+    {
+      "publisher" : "OmniFaces",
+      "group" : "org.omnifaces",
+      "name" : "omnifaces",
+      "version" : "2.6.3",
+      "description" : "JSF 2.2+ utility library",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "744b832cb71ade92560d56794180b9a5"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "e856b9d4b4d8534cd4a5acf83b709b5ef6d61034"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "a52a665907632591211e64f3e8e93bc0303b2bd578fecb9351085651e4b267bb"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "36cee4e0a04e82995d136a0b4b4d50e5a42ea6b711fbcad0d3da5d5b99bfb83ad65e6cf395e0efb7ecc70ff77174a26be664edbc015a43e56923eab9b7fbc1a6"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "55dbf9559e7b12e7cb9f30c47f8ae1d60b3909ed6cd3a745b0f27594e6fceb4791a59616a846e3cb3ce2157f9412e1bc"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "93c5c793e62c21a716c98981c34bb7352dbcd623839dfb599eeb6f52094fcca42b096c8e4472b79b5acba7ac532ec6ca"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "95b8f37255631a5f9823a1e036ee9252dc3bf8068ea428082c07257e829c3f2e"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "1ef93cd8b318220182881aa11b19ca164783acac305ee6d7e347715d43f70e44a4f1cb4ccd41430ad407b0d9b04705b9fb4da9516672737df384e194032e52e0"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.omnifaces/omnifaces@2.6.3?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "http://omnifaces.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/omnifaces/omnifaces"
+        }
+      ],
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.omnifaces/omnifaces@2.6.3?type=jar"
+    }
+  ],
+  "dependencies" : [
+    {
+      "ref" : "pkg:maven/com.daniel.chatroom/ChatRoom@1.0-SNAPSHOT?type=war",
+      "dependsOn" : [
+        "pkg:maven/com.daniel.chatroom/ChatRoomMaven-ejb@1.0-SNAPSHOT?type=jar",
+        "pkg:maven/javax/javaee-web-api@7.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-email@1.4?type=jar",
+        "pkg:maven/javax.mail/mail@1.4.5?type=jar",
+        "pkg:maven/org.omnifaces/omnifaces@2.6.3?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.daniel.chatroom/ChatRoomMaven-ejb@1.0-SNAPSHOT?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.0?type=jar",
+        "pkg:maven/org.apache.commons/commons-csv@1.4?type=jar",
+        "pkg:maven/org.mindrot/jbcrypt@0.4?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.codehaus.jackson/jackson-mapper-asl@1.9.0?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.0?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.codehaus.jackson/jackson-core-asl@1.9.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-csv@1.4?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.mindrot/jbcrypt@0.4?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/javax/javaee-web-api@7.0?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.commons/commons-email@1.4?type=jar",
+      "dependsOn" : [
+        "pkg:maven/com.sun.mail/javax.mail@1.5.2?type=jar",
+        "pkg:maven/javax.activation/activation@1.1.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/com.sun.mail/javax.mail@1.5.2?type=jar",
+      "dependsOn" : [
+        "pkg:maven/javax.activation/activation@1.1.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/javax.activation/activation@1.1.1?type=jar",
+      "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/javax.mail/mail@1.4.5?type=jar",
+      "dependsOn" : [
+        "pkg:maven/javax.activation/activation@1.1.1?type=jar"
+      ]
+    },
+    {
+      "ref" : "pkg:maven/org.omnifaces/omnifaces@2.6.3?type=jar",
+      "dependsOn" : [ ]
+    }
+  ]
+}

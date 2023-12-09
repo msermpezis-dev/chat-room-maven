@@ -12,16 +12,17 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="ChatRoom" target="1.8" />
+      <module name="chat-room-maven" target="11" />
+      <module name="ChatRoom" target="11" />
       <module name="ChatRoomMaven" target="1.8" />
-      <module name="ChatRoomMaven-ear" target="1.8" />
-      <module name="ChatRoomMaven-ejb" target="1.8" />
+      <module name="ChatRoomMaven-ear" target="11" />
+      <module name="ChatRoomMaven-ejb" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="ChatRoom" options="-endorseddirs C:\Users\smano\Documents\IdeaProjects\chat-room-maven\ChatRoomMaven\ChatRoom\target/endorsed" />
-      <module name="ChatRoomMaven-ejb" options="-endorseddirs C:\Users\smano\Documents\IdeaProjects\chat-room-maven\ChatRoomMaven\ChatRoomMaven-ejb\target/endorsed" />
+      <module name="ChatRoom" options="-endorseddirs C:\Users\smano\Documents\IdeaProjects\chat-room-maven\ChatRoom\target/endorsed" />
+      <module name="ChatRoomMaven-ejb" options="-endorseddirs C:\Users\smano\Documents\IdeaProjects\chat-room-maven\ChatRoomMaven-ejb\target/endorsed" />
     </option>
   </component>
 </project>
