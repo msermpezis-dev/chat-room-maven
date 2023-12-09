@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ChatRoom" />
+        <module name="ChatRoomMaven-ear" />
+        <module name="ChatRoomMaven-ejb" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ChatRoom" target="1.8" />
+      <module name="ChatRoomMaven" target="1.8" />
+      <module name="ChatRoomMaven-ear" target="1.8" />
+      <module name="ChatRoomMaven-ejb" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ChatRoom" options="-endorseddirs C:\Users\smano\Documents\IdeaProjects\chat-room-maven\ChatRoomMaven\ChatRoom\target/endorsed" />
+      <module name="ChatRoomMaven-ejb" options="-endorseddirs C:\Users\smano\Documents\IdeaProjects\chat-room-maven\ChatRoomMaven\ChatRoomMaven-ejb\target/endorsed" />
+    </option>
+  </component>
+</project>
